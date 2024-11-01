@@ -10,11 +10,10 @@ There are two parts to the Hackathon predictive model:
 HOW IT WAS BUILT: 
 
 
-First, let us review the steps taken to build the Predictive Model: 
+1. Steps taken to build the Predictive Model: 
 
 Data Preparation: Load and clean the dataset, ensuring all necessary columns are present and correctly formatted. 
 
-NOTE: You will need to update the dataset YEARLY, after each Hackathon. Please read the HOW TO MAINTAIN section for more details. 
 
 
 Model Training: Train the model using features like idea_name, submitted_estimate, actual_benefits_wc, actual_benefits_savings, and expert_weighted_avg. This was all taken from the following two Excel files: 
@@ -32,7 +31,7 @@ Prediction: Use the model to predict the viability of new ideas. It is a Random 
 Evaluation: Evaluate the model's performance using a confusion matrix and feature importance list to visualize accuracy and which variables hold the most weight in the outcome of the prediction. 
 
 
-Now let us review the fonfusion matrix:
+2 . Confusion matrix steps:
 
 Build to evaluate whether an idea fits into one of these categories: 
 
